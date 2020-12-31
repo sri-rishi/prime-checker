@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+body {
+    font-family: 'Nova Flat', cursive;
+    text-align: center;
+    background-color: #ff7b54;
+    color: white;
+    margin: 0px;
+}
+h1 {
+    margin: 8rem auto 4rem;
+    font-size: 40px;
+}
+
+input {
+    padding: 20px;
+    font-size: 20px;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 8px;
+    border: none;
+    width: 60%;
+    height: 7vh;
+}
+
+#output {
+    width: 80%;
+    height: 10vh;
+    margin: 2rem auto;
+    font-size: 25px;
+}
+
+button {
+    border-radius: 8px;
+    border: none;
+    opacity: 0.5;
+    font-family: 'Nova Flat', cursive;
+    padding: 0.5% 2%;
+}
+
+footer {
+    background-color: #e08f62;
+    font-family: 'Kaushan Script', cursive;
+    padding: 20px 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffe5b9;
+}
+
+@media (max-width: 500px){
+    
+}
