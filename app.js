@@ -5,7 +5,7 @@ var numberInput = document.querySelector("#number-input");
 var outputDiv = document.querySelector("#output");
 var score = 0;
 
-function clickHandler(event) {
+const clickHandler = event => {
     var inputNumber = numberInput.value;
 
     if (isNaN(inputNumber)){
