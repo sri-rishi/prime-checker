@@ -18,9 +18,9 @@ const clickHandler = event => {
         }
 
         if(score === 0){
-            outputDiv.innerHTML = inputNumber + " is a Prime Number";
+            outputDiv.innerHTML = `${inputNumber} is a Prime Number`;
         }else{
-            outputDiv.innerHTML = inputNumber + " is not a Prime Number";
+            outputDiv.innerHTML = `${inputNumber} is not a Prime Number`;
         }
     }
 }
