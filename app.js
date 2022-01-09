@@ -11,7 +11,7 @@ const clickHandler = event => {
     if (isNaN(inputNumber)){
         outputDiv.innerHTML = "Error: Please input number"
     }else {
-        for(var i = 2; i<inputNumber; i++){
+        for(let i = 2; i<inputNumber; i++){
             if (inputNumber % i === 0){
                 score = score + 1;
             }
