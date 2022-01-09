@@ -1,12 +1,12 @@
-var btnCheck = document.querySelector("#btn-check");
+const btnCheck = document.querySelector("#btn-check");
 
-var numberInput = document.querySelector("#number-input");
+const numberInput = document.querySelector("#number-input");
 
-var outputDiv = document.querySelector("#output");
-var score = 0;
+const outputDiv = document.querySelector("#output");
+let score = 0;
 
 const clickHandler = event => {
-    var inputNumber = numberInput.value;
+    let inputNumber = numberInput.value;
 
     if (isNaN(inputNumber)){
         outputDiv.innerHTML = "Error: Please input number"
